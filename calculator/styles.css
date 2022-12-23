@@ -92,6 +92,7 @@ select {
     border-radius: 45px;
     box-shadow: 0 0 5px #b8b7b7;
     margin-top: 100px;
+    position:fixed;
     
 }
 
