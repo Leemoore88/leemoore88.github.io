@@ -6,7 +6,7 @@
 
     background-color: black;
 }
-
+/*=========== 1  block begin ===========*/
 .container {
     max-width: 1186px;
     margin: 0 auto;
@@ -19,14 +19,13 @@ padding-top: 60px;
 .logo {
     display:flex;
     align-items: flex-end;
-    max-width: 250px;
+    width: 250px;
     justify-content: space-between;
     margin-bottom: 48px;
 }
 
 .hero_image {
     margin: 0 auto;
-    width: 1554px;
     height: 567px;
     max-width: 100%;
     background-image: url(images/1.png);
@@ -82,11 +81,155 @@ h3 {
     color: white;
 }
 
+
+@media (max-width:1260px) {
+        .container {
+            max-width: 1000px;
+            margin: 0 auto; 
+        }
+
+        .hero_image {
+        background-image: url(images/1_ad1.png)
+
+        }
+
+        .clear-content {
+            display: inline-block;
+            margin-bottom:220px;
+        }
+}
+
+@media (max-width:1100px) {
+    .container {
+        max-width: 800px;
+        margin: 0 auto; 
+    }
+
+    .hero_image {
+    background-image: url(images/1_ad1.png)
+
+    }
+
+    .video_head {
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .clear {
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+.polaris_alisa {
+    margin-top: 100px;
+}
+
+    .staff {
+        margin-top: 50px;
+    }
+
+    .benefits {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+       
+    }
+}
+
+@media (max-width:860px) {
+    .container {
+        max-width: 600px;
+        margin: 0 auto; 
+    }
+
+    .goods {
+        align-items: center;
+    }
+    
+    h1 {
+        font-size: 44px;
+        text-align: center;
+        
+    }
+
+    .text {
+        margin-left: 30px;
+        text-align: left;
+        margi
+    }
+    
+
+.hero_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+    h3 {
+        text-align: center;
+    }
+
+    .staff {
+        margin-top: 50px auto;
+        
+    }
+
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+        
+       
+    }
+
+    .fine {
+        flex-direction: column;
+        align-items: center;
+        
+       
+    }
+
+    .fine_l {
+        margin-top: 50px;
+    }
+  
+}
+
+@media (max-width:500px) {
+    .container {
+        max-width: 375px;
+        margin: 0 auto; 
+    }
+
+    .goods {
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefits {
+
+        flex-direction: column;
+    }
+    .text {
+        margin-top: 100px;
+
+        text-align: center;
+    }
+
+  
+}
+
+
+/*=========== 1  block end ===========*/
+
+/*=========== 2  block begin ===========*/
 .goods {
     margin-top: 66px;
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     margin-bottom: 157px;
+    flex-wrap: wrap;
+    
 }
 
 .product {
@@ -94,6 +237,7 @@ h3 {
     height: 386px;
     background-color: #030303;
     position: relative;
+    
 }
 
 .pic {
@@ -151,6 +295,9 @@ h3 {
 
 }
 
+/*=========== 2  block end ===========*/
+/*=========== 3  block begin ===========*/
+
 .video_head {
     display:flex;
     justify-content: space-between;
@@ -167,14 +314,19 @@ h3 {
 iframe {
     margin: 50px 0 90px 0;
     height: 660px;
-    width: 1186px;
+    width: 100%;
     border-radius: 10px;
     border: none;
 }
 
+/*=========== 3  block end ===========*/
+
+/*=========== 4  block begin ===========*/
+
 .benefits {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .disc {
@@ -188,6 +340,10 @@ iframe {
     margin-bottom: 100px;
 }
 
+/*=========== 4  block end ===========*/
+
+/*=========== 5  block begin ===========*/
+
 .clear {
     display: flex;
     justify-content: space-between;
@@ -199,6 +355,30 @@ iframe {
     justify-content: space-between;
     margin-bottom:220px;
 }
+
+@media (max-width:1260px) {
+ 
+
+    .clear-content {
+        display: inline-block;
+        margin-bottom:220px;
+    }
+
+    .text {
+        margin-top: 100px;
+
+        text-align: center;
+    }
+    .clear_pic {
+        width: 592px;
+        height: 972px;
+        margin-top: 75px;
+        background-image: url(images/Mask_group.png);
+        border: 1px solid rgb(32, 32, 32);
+    }
+}
+
+
 
 
 .polaris_alisa {
@@ -213,12 +393,22 @@ iframe {
     height: 972px;
     margin-top: 75px;
     background-image: url(images/Mask_group.png);
+    border: 1px solid rgb(32, 32, 32);
 }
 
 .text {
     margin-left: 240px;
 }
 
+@media {
+
+
+.text {
+    margin-left: 0px;
+    text-align: left;
+}
+
+}
 .text_disc {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -230,24 +420,37 @@ iframe {
     max-width: 345px;
 }
 
+/*=========== 5  block end ===========*/
+
+/*=========== 6  block begin ===========*/
+
 .fine {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
+@media (max-width:860px) {
+.fine {
+    flex-direction: column;
+    align-items: center;
+}
+    
+   
+}
 .reviews {
     display: flex;
     justify-content: space-between;
     margin-top: 90px;
     margin-bottom:42px;
+    flex-wrap: wrap;
 }
 
 .rev {
     height: 539px;
     width: 581px;
     padding: 50px;
-    border: 1px solid white;
+    border: 1px solid rgb(32, 32, 32);
     border-radius: 4px;
     position: relative;
 
@@ -306,6 +509,8 @@ margin-left: 25px;
     display: flex;
 }
 
+
+
 .tovar_disc {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -318,6 +523,28 @@ margin-left: 25px;
     
 
 }
+
+@media (max-width:650px) {
+
+    .tovar {
+        height: 110px;
+        width: 375px;
+        background-color: #0c0c0c;
+        position: absolute;
+        bottom: 50px;
+        border-radius: 10px;
+        padding: 13px;
+        display: flex;
+    }
+
+    .reviews {
+align-items: center;
+    }
+}
+
+/*=========== 6  block end ===========*/
+
+/*=========== 7  block begin ===========*/
 
 .explame {
     font-family: 'Roboto', sans-serif;
@@ -333,3 +560,7 @@ margin-left: 25px;
     justify-content: center;
     padding: 75px 0 75px;
 }
+
+
+
+/*=========== 7  block end ===========*/
