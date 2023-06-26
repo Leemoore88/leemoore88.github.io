@@ -3,3 +3,6 @@ function addNumToInput(anElement) {
     num += anElement.innerText;
     document.getElementById('screen').value = num;
 }
+const calc = {
+    
+}
